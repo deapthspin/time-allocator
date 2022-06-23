@@ -1,0 +1,22 @@
+.copy-before-container {
+   position: relative
+   ;
+   bottom: 24.76rem;
+   left: 4rem;
+}
+
+.copy-after-container {
+    position: relative;
+    bottom: 37.26rem;
+    left: 19rem;
+}
+
+.noob >.before-container > .selfeval {
+    position: relative;
+    left: 6rem;
+}
+
+.god >.copy-before-container > .feedbackk {
+    position: relative;
+    left: 8rem;
+}

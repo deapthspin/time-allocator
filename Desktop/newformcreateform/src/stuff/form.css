@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+  
+  
+  
+  .App {
+    width: 70vh;
+    margin: 5rem;
+    display: flex;
+    justify-content: space-between;
+  
+    
+  }
+  
+  .form-field {
+    flex: 2;
+    
+  }
+  .output {
+    position: absolute;
+    left: 63rem;
+    bottom: 33.8rem;
+    height: 15rem;
+    width: 15rem;
+    
+  }
+  .form-field label,
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(84, 84, 84);
+  }
+  
+  input {
+    height: 35px;
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+  }
+  
+  input:focus {
+    border: 1px solid rgb(0, 208, 255);
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-division {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0.5rem 0;
+    width: 100%;
+  }
+  button {
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 5px 10px;
+  }
+  .first-division button {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: rgb(0, 208, 255);
+    border: 1px solid rgb(0, 208, 255);
+  }
+  
+  .second-division button {
+    color: red;
+    border: 1px solid red;
+  }
+  
+  #title {
+    width: 24.5rem;
+    background-color: rgb(255, 249, 240);
+    border: 2px solid rgb(216, 216, 216);
+    position: relative;
+    top: 3rem;
+    right: 5rem;
+  }
+  
+  .title-text {
+    font-size: 1.5rem;
+    color:rgb(84, 84, 84);
+    position: relative;
+    left:5rem;
+  }
+  
+  
+  .space-top {
+    position: relative;
+    top: 1rem;
+  }
+  
+  .title-text {
+    position: relative;
+    
+     
+      left: 10rem;
+    
+  }
+  
+  
+  .fake-radio {
+   
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+    
+    opacity: 1;
+    border: 2px solid black;
+  }
+  
+  
+  
+  .fake-radio-checked {
+    
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(49, 135, 206);
+    opacity: 1;
+    border: 2px solid black;
+  
+  }
+  
+  
+  .fake-radios {
+    display: flex;
+  }
+  
+  .number {
+    position: relative;
+    right: 1.35rem;
+    top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  
+  .question-name {
+    margin-top: 2rem;
+  }
+  
+  .title-input {
+    top: 2.5rem;
+    right: 7rem;
+    background-color: blanchedalmond;
+    width: 25rem;
+  }
+  
+  .objective-statement {
+    position: relative;
+    bottom: 1.3rem;
+  }
+
+  

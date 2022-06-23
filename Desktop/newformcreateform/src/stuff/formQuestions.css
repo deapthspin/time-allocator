@@ -1,0 +1,22 @@
+.formname {
+    position: relative;
+    top: -7rem;
+    font-size: 2rem;
+    left: 15rem;
+  }
+
+.output {
+ position: relative;
+  bottom: 18rem;
+  
+}
+
+.question-name {
+  width: 20rem;
+  word-wrap: break-word
+}
+
+.have-to-keep-here-so-doesnt-link-me-randomly {
+  opacity: 0;
+  
+}

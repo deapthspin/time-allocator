@@ -1,0 +1,58 @@
+.before {
+
+}
+.after {
+    position: relative;
+    left: 10rem;
+}
+
+.smallll {
+    font-size: 0.5rem;
+}
+
+.before-container {
+    position: relative !important;
+    right: 20rem !important;
+    top: 3rem;
+}
+
+.after-container {
+    position: relative !important;
+    right: 8rem !important;
+    bottom: 9.5rem;
+}
+
+.before-container-two {
+    position: relative !important;
+    right: 8rem !important;
+    top: 3rem;
+}
+
+.after-container-two {
+    position: relative !important;
+    left: 5rem !important;
+    bottom: 9.5rem;
+}
+
+
+.thechart {
+    position: absolute !important;
+    bottom: 10rem;
+    border: 2px solid black;
+}
+
+.programvalueadd {
+    font-weight: 300;
+    font-size: 4rem !important;
+}
+
+.smallbr {
+    display: block;
+    margin-bottom: -2rem;
+    font-size:-2rem;
+    line-height: -2rem;
+  }
+
+  .bigh1 {
+    font-size: 1.7rem !important;
+  }

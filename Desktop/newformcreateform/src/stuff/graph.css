@@ -1,0 +1,17 @@
+.dropdownButton {
+    width: 5rem !important;
+}
+
+.orderedlist {
+    width: 50rem;
+}
+
+.radios {
+    margin-bottom: 10rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    word-wrap: normal;
+    width: 40rem;
+}
+
+
