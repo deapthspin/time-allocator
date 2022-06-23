@@ -1,7 +1,7 @@
 import react, { useEffect } from 'react'
 import './chart.css'
-import { PieChart, Pie, CartesianGrid, XAxis, YAxis } from 'recharts';
-import ApexCharts from 'apexcharts'
+
+
 import { Chart as GChart} from "react-google-charts" ;
 
 const Chart = (props) => {

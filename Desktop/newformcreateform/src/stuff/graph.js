@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { Link, useParams } from 'react-router-dom'
 import './graph.css'
-import ApexCharts from 'apexcharts'
+
 import Button from '@mui/material/Button';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
