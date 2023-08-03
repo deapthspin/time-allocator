@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "//time-allocator/static/css/main.59ba3008.css",
-    "main.js": "//time-allocator/static/js/main.fee0b7a3.js",
-    "index.html": "//time-allocator/index.html",
-    "main.59ba3008.css.map": "//time-allocator/static/css/main.59ba3008.css.map",
-    "main.fee0b7a3.js.map": "//time-allocator/static/js/main.fee0b7a3.js.map"
+    "main.css": "/time-allocator/static/css/main.59ba3008.css",
+    "main.js": "/time-allocator/static/js/main.fee0b7a3.js",
+    "index.html": "/time-allocator/index.html",
+    "main.59ba3008.css.map": "/time-allocator/static/css/main.59ba3008.css.map",
+    "main.fee0b7a3.js.map": "/time-allocator/static/js/main.fee0b7a3.js.map"
   },
   "entrypoints": [
     "static/css/main.59ba3008.css",
