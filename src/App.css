@@ -1,0 +1,81 @@
+body {
+  font-family: Arial;
+  background-color: rgb(17, 19, 27);
+  color: rgb(206, 206, 206);
+}
+
+
+.flex-horiz {
+  margin-left: 50px;
+  display: flex;
+}
+
+.flex-horiz > h1 {
+  margin-right: 40px;
+}
+
+.hour {
+  border: 3px solid rgb(38, 44, 61); 
+  border-radius: 4px;
+  margin-bottom: 5px;
+  min-width: 150px;
+
+}
+
+.collecting-zone {
+  background-color: rgb(14, 16, 22);
+  border-radius: 5px;
+  height: 150px;
+  overflow-x: scroll;
+  box-shadow: 5px -8px 10px rgb(10, 10, 10);
+  display: flex;
+}
+
+.block {
+  margin-left: 15px;
+  margin-top: 20px;
+  background-color: rgb(184, 18, 18);
+  width: fit-content;
+  padding: 15px 70px;
+  border-radius: 7px;
+}
+
+.creating-zone {
+  background-color: rgb(10, 11, 15);
+  text-align: center;
+  width: 1000px;
+  margin-left: auto;
+}
+
+.background-white {
+  background-color: rgb(206,206,206);
+  width: fit-content;
+  margin: auto;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.createButton {
+  top: 10px;
+}
+
+.delete-zone {
+  /* border: 1px solid white; */
+  border-radius: 7px;
+  height: 300px;
+  width: fit-content;
+  margin: 250px auto;
+  padding: 0 150px;
+  background-color: rgb(187, 16, 16);
+}
+
+.center {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.hourText {
+  height: 75px;
+  /* border: 1px solid white; */
+}
+
