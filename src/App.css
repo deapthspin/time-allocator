@@ -28,7 +28,7 @@ body {
 .collecting-zone {
   background-color: rgb(14, 16, 22);
   border-radius: 5px;
-  height: 150px;
+  height: 200px;
   overflow-x: scroll;
   box-shadow: 5px -8px 10px rgb(10, 10, 10);
   display: flex;
@@ -41,6 +41,7 @@ body {
   width: fit-content;
   padding: 15px 70px;
   border-radius: 7px;
+  height: 80px;
 }
 
 .creating-zone {
