@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/time-allocator/static/css/main.002f4d10.css",
+    "main.css": "/time-allocator/static/css/main.f6d4c383.css",
     "main.js": "/time-allocator/static/js/main.d30fcd21.js",
     "index.html": "/time-allocator/index.html",
-    "main.002f4d10.css.map": "/time-allocator/static/css/main.002f4d10.css.map",
+    "main.f6d4c383.css.map": "/time-allocator/static/css/main.f6d4c383.css.map",
     "main.d30fcd21.js.map": "/time-allocator/static/js/main.d30fcd21.js.map"
   },
   "entrypoints": [
-    "static/css/main.002f4d10.css",
+    "static/css/main.f6d4c383.css",
     "static/js/main.d30fcd21.js"
   ]
 }
