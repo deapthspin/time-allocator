@@ -122,9 +122,11 @@ function App() {
   function edit(e) {
     e.preventDefault()
     let id = e.target.id * 1
-    let newName = prompt('edit')
+    let newName = prompt('edit', blocksToCollect[id].name)
+    if (newName) {
+      blocksToCollect[id].name = newName
+    }
 
-    blocksToCollect[id].name = newName
 
     manualUpdate()
   }
