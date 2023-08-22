@@ -19,7 +19,7 @@ function App() {
 
   const targetedHour = useRef()
   const [canRender, setCanRender] = useState(true)
-  let [blocksToCollect, setBlocksToCollect] = useState([{name: 'test', id: 1}])
+  let [blocksToCollect, setBlocksToCollect] = useState([])
 
 
  
@@ -120,6 +120,7 @@ function App() {
   }
 
   function edit(e) {
+    console.log(e.target.id)
     e.preventDefault()
     let id = e.target.id * 1
     let newName = prompt('edit', blocksToCollect[id].name)
@@ -128,6 +129,17 @@ function App() {
     }
 
 
+    manualUpdate()
+  }
+
+  function deleteAll(e) {
+    e.preventDefault()
+    let canDelete = window.confirm('are you sure?')
+    if (canDelete) {
+      console.log('deleted')
+      setBlocksToCollect(blocksToCollect = [])
+      console.log(blocksToCollect)
+    } 
     manualUpdate()
   }
 
@@ -229,6 +241,7 @@ function App() {
                 <div className='delete-zone' id='delete' onDragEnter={dragIn}>
                   <h2>delete</h2>
                 </div>
+                <Button variant='contained' color='error' onClick={deleteAll}>DELETE ALL ITEMS</Button>
           </div>
         </div>
       </div>}
